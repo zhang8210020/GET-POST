@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread" parallel="methods" thread-count="2">
+
+    <!--
+    methods级别：所有用例都可以在不同的线程下去执行
+    thread-count：代表最大并发线程数
+    xml文件配置这种方式不能指定线程池
+    -->
+    <test name="demo1">
+        <classes>
+            <calss name="com.zhangyuan.tsetng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+</suite>
