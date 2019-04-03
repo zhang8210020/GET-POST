@@ -1,8 +1,6 @@
 package com.zhangyuan.tsetng;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class BasicAnnotation {
     //最基本注解，用来把方法标记为测试的一部分
@@ -22,4 +20,14 @@ public class BasicAnnotation {
     public void afterMethod(){
         System.out.println("AfterMethod这是在测试方法之后运行的");
     }
+
+    @BeforeClass
+    public void beforeClass(){
+        System.out.println("BeforeClass这是在类之前运行的");
+    }
+    @AfterClass
+    public void afterClass(){
+        System.out.println("AfterClass这是在类之后运行的");
+    }
+
 }
