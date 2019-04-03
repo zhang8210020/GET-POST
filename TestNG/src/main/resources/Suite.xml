@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="test">
+    <test name="login">
+        <classes>
+            <class name="com.zhangyuan.tsetng.Suite.Suiteconfig"/>
+            <class name="com.zhangyuan.tsetng.Suite.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="pay">
+        <classes>
+            <class name="com.zhangyuan.tsetng.Suite.Suiteconfig"/>
+            <class name="com.zhangyuan.tsetng.Suite.PayTest"/>
+        </classes>
+    </test>
+</suite>

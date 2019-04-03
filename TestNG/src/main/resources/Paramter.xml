@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="paramter">
+    <test name="paramter">
+        <classes>
+            <parameter name="name" value="zhangsan"/>
+            <parameter name="age" value="10"/>
+            <class name="com.zhangyuan.tsetng.paramter.ParamterTest"/>
+        </classes>
+    </test>
+</suite>
