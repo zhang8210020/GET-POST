@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ExtentReport" />
         <module name="TestNG" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ExtentReport" target="6" />
+      <module name="GET-POST" target="1.5" />
       <module name="TestNG" target="1.5" />
     </bytecodeTargetLevel>
   </component>

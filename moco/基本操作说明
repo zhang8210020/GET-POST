@@ -1,0 +1,1 @@
+java -jar C:\Users\zhangyuan\IdeaProjects\get_post\GET-POST\moco\moco-runner-0.11.0-standalone.jar http -p 8888 -c startupWithRedirect.json
