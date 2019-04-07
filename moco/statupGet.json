@@ -2,18 +2,18 @@
   {
     "description": "模拟一个没有参数的get请求",
     "request": {
-      "uri":"/getdemo",
-      "method":"get"
+      "uri": "/getdemo",
+      "method": "get"
     },
     "response": {
       "text": "Get，request"
     }
   },
-
-  { "description": "模拟一个带参数的get请求",
+  {
+    "description": "模拟一个带参数的get请求",
     "request": {
-      "uri":"/getwithparam",
-      "method":"get",
+      "uri": "/getwithparam",
+      "method": "get",
       "queries": {
         "name": "zhangsan",
         "age": "19"
@@ -23,23 +23,23 @@
       "text": "我张三又回来啦"
     }
   },
-
-  { "description": "模拟一个post请求",
+  {
+    "description": "模拟一个post请求",
     "request": {
-      "uri":"/postdemo",
-      "method":"post"
+      "uri": "/postdemo",
+      "method": "post"
     },
     "response": {
       "text": "这是第一个mock的post请求"
     }
   },
-
-  { "description": "模拟一个带参数post请求",
+  {
+    "description": "模拟一个带参数post请求",
     "request": {
-      "uri":"/postwithparam",
-      "method":"post",
+      "uri": "/postwithparam",
+      "method": "post",
       "forms": {
-       "name": "张三",
+        "name": "张三",
         "sex": "man"
       }
     },
@@ -47,5 +47,4 @@
       "text": "这是第一个mock的post请求"
     }
   }
-
 ]

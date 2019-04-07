@@ -12,6 +12,8 @@
     <modules>
         <module>TestNG</module>
         <module>ExtentReport</module>
+        <module>HttpClient</module>
     </modules>
+
 
 </project>

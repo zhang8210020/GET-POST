@@ -1,6 +1,6 @@
 [
   {
-    "description":"这是mock例子",
+    "description": "这是mock例子",
     "request": {
       "uri": "/demo"
     },
