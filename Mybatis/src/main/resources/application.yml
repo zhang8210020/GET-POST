@@ -9,8 +9,9 @@ spring:
   datasource:
       driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://localhost:3306/get-post
-      username:root
-      password:root
+
+      username: root
+      password: root
 mybatis:
   type-aliases-package: com.zy.model
   mapper-locations:
